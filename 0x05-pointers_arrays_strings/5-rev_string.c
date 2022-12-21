@@ -18,14 +18,9 @@ char c;
 
 int len;
 
-
-
 ind = 0;
 
 len = 0;
-
-
-
 while (s[len] != '\0')
 
 {
@@ -35,8 +30,6 @@ len++;
 }
 
 rind = len - 1;
-
-
 
 while (!(ind >= rind))
 
@@ -51,9 +44,4 @@ s[rind] = c;
 ind++;
 
 rind--;
-
 }
-
-
-
-
