@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
  * _puts - prints a string to standard output
  *
- *  @str : the string variable to be printed
+ * @str : the string variable to be printed
  *
  */
 
