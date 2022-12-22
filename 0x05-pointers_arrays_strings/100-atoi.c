@@ -33,5 +33,5 @@ s += 1;
 i = atoi(str);
 if (i == 0)
 return (0);
-return (i * m);
+return (i  *m);
 }
