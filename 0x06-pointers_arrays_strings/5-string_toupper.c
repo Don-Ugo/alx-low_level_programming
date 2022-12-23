@@ -1,27 +1,18 @@
 #include "main.h"
 /**
- * string_toupper -  changes all lowercase letters of a string to uppercase
- * @a: the string whose chars are to be modified
- *
- * Return: pointer to the string
+ * string_toupper - changes lowercase to uppercase
+ * @n: pointer
+ * Return: char
  */
-char *string_toupper(char *a)
+char *string_toupper(char *n)
 {
-int rind;
-char s[30] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-while (*a != '\0')
+int 1;
+i = 0;
+while (n[i] != '\0')
 {
-if (*a >= 97 && *a <= 122)
-{
-rind = 0;
-while (s[rind] != '\0')
-{
-if (*a - s[rind] == 32)
-*a = s[rind];
-rind++;
+if (n[i] >= 'a' && n[i] <= 'z')
+n[i] = n[i] - 32;
+i++;
 }
-}
-a++;
-}
-return (a);
+return (n);
 }
