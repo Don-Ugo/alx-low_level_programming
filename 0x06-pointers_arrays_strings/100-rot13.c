@@ -3,7 +3,6 @@
 /**
  * rot13 - encodes a string using rot13
  * @str: the string to encode
- *
  * Return: encoded string
  */
 char *rot13(char *str)
@@ -19,5 +18,6 @@ if (set1[s] == str[i])
 {
 str[i] = set2[s];
 break;
+}
 return (str);
 }
